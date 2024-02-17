@@ -4,7 +4,7 @@ My website Link: https://simpleqrgen13.netlify.app/
 
 The user can able to use this website in day to day life with absolutly paying no cost.
 
-Thisng to remember before use: 
+Things to remember before use: 
 1) the input character should not have to be more than 1000 words , otherwise the qr scanners out there will face difficulty scanning it.
 2) user have to provide at least 1 character as input.
 3) user have to have internet connectivity. That's it!!!
