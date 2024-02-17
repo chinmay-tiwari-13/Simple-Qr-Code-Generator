@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qr Generator</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="description">
+            <p>Enter the data to be converted</p>
+        </div>
+        <div class="inputSection">
+            <div>
+                <input class="input" type="text" id="data" placeholder="Enter Here">
+            </div>
+            <div>
+                <select name="size" id="imgSize" aria-placeholder="size" required>
+                    <option value="" disabled selected>Size</option>
+                    <option value="50x50">50 x 50</option>
+                    <option value="100x100">100 x 100</option>
+                    <option value="150x150">150 x 150</option>
+                    <option value="200x200">200 x 200</option>
+                    <option value="250x250">250 x 250</option>
+                    <option value="300x300">300 x 300</option>
+                </select>
+            </div>
+
+        </div>
+        <div class="buttonclass">
+            <button class="SubBtn" onclick="getdata()">Generate</button>
+        </div>
+        <div id="image_part">
+            <img id="current_img" src="" alt="">
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
